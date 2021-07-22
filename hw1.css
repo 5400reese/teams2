@@ -1,0 +1,110 @@
+header{
+    background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+    height:150px;
+  }
+  p{
+      font-size:medium;
+      padding-left:15px;
+  }
+  h1{ 
+      color:#ffffff;
+      font-style: oblique;
+      text-align: center;  
+      font-weight: 100;
+      font-size:large;
+  }
+  nav{
+      font: size 60px;
+      text-align: center;
+      font-style:inherit;
+      text-decoration: wavy;
+  }
+  a{
+      color:#000000;
+      display:inline-block;
+      width: 50px;
+      height: 25px;
+      margin: 20px;
+      border: inset 2px #ffffff;  
+  }
+  .box{
+      float: center;
+      margin: 1%;
+      width: 20%;
+      background: #ffffff;
+      background-color: transparent;
+  }
+  a:hover{
+      background-color: #ffffff;
+      color: #000000;
+  }
+  h2{
+      color:#000000;
+      font-style:inherit;
+      font-size:medium;
+      padding-right:15px;
+      margin-right:15px;
+  }
+  body{
+      background-color:#ffffff;
+  }
+  img{
+      height: 75px;
+      width: 125px;
+      margin:auto;
+      margin-top: 25px;
+      margin-bottom: 25px;
+      border: solid #000000;
+      box-sizing: border-box;
+      display: block;
+      text-align: center;
+  }
+  section{
+      background-color: rgb(87, 87, 4);
+      float: left;
+      width: 20%;
+      height: 425px;
+  }
+  table{
+      border-collapse: separate;
+      border-spacing: 0;
+      padding-left: 15px;
+  }
+  th,td{
+      padding:5px 10px;
+      vertical-align: middle;
+      border: 1px solid #ffffff;
+  }
+  th{
+      background-color: #476403;
+  }
+  th:first-child{
+      border-top-left-radius:5px;
+  }
+  th:last-child{
+      border-top-right-radius:5px;
+  }
+  thead{
+      color:black;
+      background:linear-gradient(#476403,#000000);
+  }
+  td{
+      border-bottom: 1px;
+      border-right: 1px;
+  }
+  td:first-child{
+   border-left: 1px;
+  }
+  
+ tbody{
+     background-color: #769233;
+  }
+ tfoot td:first-child{
+     border-bottom-left-radius:5px;
+  }
+ tfoot td:last-child{
+    border-bottom-right-radius:5px;
+}
+ tfoot{
+    background-color: #769233;
+}
